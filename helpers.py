@@ -13,9 +13,9 @@ import torch
 import torch.nn as nn
 
 
-from .features import FeatureListNet, FeatureDictNet, FeatureHookNet
-from .hub import has_hf_hub, download_cached_file, load_state_dict_from_hf, load_state_dict_from_url
-from .layers import Conv2dSame, Linear
+from timm.features import FeatureListNet, FeatureDictNet, FeatureHookNet
+from timm.hub import has_hf_hub, download_cached_file, load_state_dict_from_hf, load_state_dict_from_url
+from timm.layers import Conv2dSame, Linear
 
 
 _logger = logging.getLogger(__name__)
